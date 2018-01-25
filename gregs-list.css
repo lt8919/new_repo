@@ -2,16 +2,109 @@ html {
 	font-family: "Arial"
 }
 
-nav {
-	width: 100%;
-	background-color: #eaeaea;
-	position: fixed;
-	display: inline-block;
+a {
+	text-decoration: none;
 }
 
-nav ul {
+.nav {
+	padding: 10px;
+	background-color: #eaeaea;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	border-bottom: 1px grey solid;
+}
+
+.logo {
+	margin-left: 10px;
+	color: black;
+}
+
+.nav-menu {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.nav-link {
+	margin-right: 15px;
+}
+
+.search-section {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+form {
+	display: block;
+}
+
+.search-label {
+	margin-bottom: 10px;
+	margin-left: 50px;
+}
+
+.search-bar {
+	display: inline-block;
+	height: 20px;
+	width: 300px;
+	font-size: 15px;
+}
+
+.search-button {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+}
+
+.pages {
+	display: inline-block;
+	border: 1px #eaeaea solid;
+	border-radius: 5px;
+	padding: 10px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+.pages-prev {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.pages-next {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.pages-no {
+	border-left: 1px #eaeaea solid;
+	border-right: 1px #eaeaea solid;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+ul, main {
 	list-style: none;
 }
-li {
-	text-align: right;
+
+li, ul, main {
+	margin-bottom: 15px;
+}
+
+.list-job {
+	font-weight: 800;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: blue;
+}
+
+.list-date, .list-location {
+	color: grey;
 }
