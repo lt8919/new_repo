@@ -1,0 +1,58 @@
+html {
+	background-color: lightblue;
+	font-family: open sans;
+}
+
+.logo {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+h1 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.signup-box {
+	width: 400px;
+	height: 500px;
+	background-color: white;
+	text-align: center;
+	border-radius: 3px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.email {
+	display: block;
+}
+
+label {
+	font-size: 20px;
+}
+
+input, button {
+	width: 320px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 2px #eaeaea solid;
+}
+
+.signup-button {
+	background-color: green;
+	color: white;
+	font-size: 20px;
+}
+
+.login {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+	color: white;
+}
+
+.login-link {
+	margin-left: 10px;
+	text-decoration-line: none;
+}
