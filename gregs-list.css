@@ -36,26 +36,28 @@ a {
 	margin-bottom: 50px;
 }
 
-form {
+.search-section {
 	display: block;
-}
-
-.search-label {
-	margin-bottom: 10px;
+	margin-bottom: 50px;
 	margin-left: 50px;
+	margin-top: 100px;
 }
 
-.search-bar {
+.search-section .search-bar {
 	display: inline-block;
-	height: 20px;
+	height: 30px;
 	width: 300px;
 	font-size: 15px;
+	border: 1px #eaeaea solid;
+	border-radius: 5px;
 }
-
-.search-button {
+.search-section .search-button {
 	display: inline-block;
-	width: 40px;
-	height: 40px;
+	width: 30px;
+	height: 30px;
+	vertical-align: bottom;
+	border: 1px #eaeaea solid;
+	border-radius: 5px;
 }
 
 .pages {
