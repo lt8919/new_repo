@@ -1,22 +1,26 @@
 html {
-	background-color: lightblue;
+	background-color: #3f94e7;
 	font-family: open sans;
 }
 
 .logo {
 	text-align: center;
 	padding-top: 50px;
-	padding-bottom: 50px;
+}
+
+.logo img{
+	max-height: 35px;
 }
 
 h1 {
 	padding-top: 30px;
 	padding-bottom: 30px;
+	font-size: 35px;
+	font-weight: 300;
 }
 
 .signup-box {
 	width: 400px;
-	height: 500px;
 	background-color: white;
 	text-align: center;
 	border-radius: 3px;
@@ -24,25 +28,48 @@ h1 {
 	margin-right: auto;
 }
 
+.signup-form {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
 .email {
 	display: block;
 }
 
 label {
-	font-size: 20px;
+	font-size: 17px;
+	font-weight: 600;
+	display: block;
+	text-align: left;
+	margin-bottom: 15px;
 }
 
-input, button {
-	width: 320px;
+input {
+	width: 100%;
+	border: 2px #eaeaea solid;
+	margin-bottom: 15px;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	border: 2px #eaeaea solid;
+	padding-left: 15px;
+	font-size: 15px;
 }
 
 .signup-button {
-	background-color: green;
+	width: 100%;
+	background-color: #64c56f;
 	color: white;
+	padding: 15px;
 	font-size: 20px;
+	margin-bottom: 48px;
+	cursor: pointer;
+}
+.signup-button:hover {
+	background-color: #0CB863;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    -o-transition: background 0.5s;
+    transition: background 0.5s;
 }
 
 .login {
@@ -54,4 +81,5 @@ input, button {
 
 .login-link {
 	margin-left: 10px;
+	color: #ffffff;
 }
